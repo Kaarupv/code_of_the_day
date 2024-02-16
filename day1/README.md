@@ -1,4 +1,3 @@
-#Day 1
+# Day 1
 
-Basic Login page
-![alt text](<Screenshot 2024-02-16 031036.png>)
+![alt text](img/prew.png "Basic Login page")
