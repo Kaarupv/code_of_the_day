@@ -108,3 +108,32 @@ body {
   display: flex;
   align-items: center;
 }
+
+.panel {
+  display: none;
+  flex-direction: column;
+  padding-left: 20px;
+  transition: max-height 0.3s ease-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.active + .panel {
+  display: flex;
+  max-height: 200px;
+}
+
+.accordion {
+  background-color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #7b7b7b;
+  font-weight: 500;
+}
+
+.accordion:hover {
+  background-color: #f0f8ff;
+}
